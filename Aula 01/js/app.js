@@ -1,4 +1,4 @@
-let notas = [3, 8, 7, 6];
+let notas = [9, 8, 7, 6];
 
 let soma = notas.reduce((a, b) => {
     let sum = a + b;
