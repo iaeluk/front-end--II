@@ -37,12 +37,10 @@ transition: all 0.5s
 }
 
 body {
-  /* height: 97vh; */
   
   background-size: fill;
   background-color: #0c0c0cb0;
   background-image: url(https://secure.static.tumblr.com/36d52c9ebcfa68e24cae6ddf4ccb3833/rz5ix4j/DDmn4dd0y/tumblr_static_39u9owiqc86cw88swock8o0wc.jpg); 
-  /* background-repeat: no-repeat; */
   backdrop-filter: grayscale(99%);
 
 }
