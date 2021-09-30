@@ -71,7 +71,7 @@ const DOM = {
         let date = new Date();
 
         const html = `
-            <td class="descricao">${tarefa.descricao.substring(0, 21) + '...'}</td>
+            <td class="descricao">${tarefa.descricao.substring(0, 30) + '...'}</td>
             <td class="data-de-adicao">${date.toLocaleDateString()}</td>
             <td class ="date">${tarefa.date}</td>
             <td class="checkbox-del">

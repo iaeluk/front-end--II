@@ -25,7 +25,7 @@ function getAPI() {
                 document.querySelector('tbody').innerHTML += `
 
         <tr data-index="${data[item].id}" ${opacity}>
-        <td class="descricao">${data[item].title.substring(0, 21) + '...'}</td>
+        <td class="descricao">${data[item].title.substring(0, 30) + '...'}</td>
         <td class="data-de-adicao">${date.toLocaleDateString()}</td>
         <td class="date">ID ${data[item].id}</td>
         <td class="checkbox-del">
